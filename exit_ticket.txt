@@ -1,0 +1,8 @@
+LAYOUT ARCHITECTURE
+A sidebar shell is better suited to an administrative DSSC portal because it keeps many major destinations—enrollment, grades, clearance, and faculty records—visible and consistently located. On small screens, the sidebar can collapse behind a clearly labeled menu so the content retains enough space.
+
+RESPONSIVE TACTICS
+For a six-column table at 360px, I would transform each row into a stacked card with every value paired with its column label, then prioritize the most important fields near the top. This avoids tiny text and page-level horizontal overflow; if comparison across columns is essential, I would instead use a contained, labeled horizontal scroll region.
+
+ACCESSIBILITY
+Removing browser outlines without an alternative makes keyboard focus invisible, so users cannot tell which control will activate when they press Enter or Space. This prototype uses a high-contrast three-pixel amber outline with spacing around focused links, buttons, and form controls, plus clear hover, error, and disabled states.
